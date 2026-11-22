@@ -30,4 +30,6 @@ public interface EmployeeMapper {
 
     /*修改员工账号状态 */
     void update(Employee employee);
+
+    Employee findbyid(long id);
 }
